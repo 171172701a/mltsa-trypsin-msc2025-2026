@@ -1,0 +1,91 @@
+{
+  "path": "/mnt/data1/student/trypsin/h5_datasets/CV_database_4864_TS_variedDCDfreq_lmin2p6_lmax4p0.h5",
+  "shape": [
+    173,
+    2500,
+    274
+  ],
+  "n_IN": 99,
+  "n_OUT": 74,
+  "n_unique_groups": 173,
+  "mixed_label_groups": [],
+  "label_scores_present": true,
+  "label_score_summary": {
+    "IN_range": [
+      2.3998506069,
+      2.5971198082
+    ],
+    "OUT_range": [
+      4.046728611,
+      30.3642864227
+    ],
+    "OUT_std": 4.537653220323709,
+    "out_committed_threshold": 5.0,
+    "n_OUT_committed": 62,
+    "n_OUT_borderline": 12
+  },
+  "feature_names_loaded": false,
+  "arguments": {
+    "path": "/mnt/data1/student/trypsin/h5_datasets/CV_database_4864_TS_variedDCDfreq_lmin2p6_lmax4p0.h5",
+    "out_dir": "/mnt/data1/student/trypsin/yucheng/07.12/v4",
+    "seed": 42,
+    "outer_splits": 5,
+    "inner_splits": 3,
+    "stride": 10,
+    "window_sizes": [
+      10,
+      50,
+      200
+    ],
+    "n_positions": 12,
+    "xi_indices": [
+      41,
+      195
+    ],
+    "crop_values": [
+      0,
+      50,
+      200
+    ],
+    "band_fracs": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "ts_win": 5,
+    "end_win": 5,
+    "smooth_width": 5,
+    "min_unk_frames": 5,
+    "span_epsilon": 1e-08,
+    "permutation_repeats": 10,
+    "screen_top_k": 8,
+    "bootstrap_repeats": 1000,
+    "skip_unk": false,
+    "out_committed_threshold": 5.0,
+    "correlation_redundancy_threshold": 0.8,
+    "run_fisher_decorrelation": true,
+    "fisher_eps_scale": 0.01,
+    "fisher_top_n": 20,
+    "run_label_score_regression": true,
+    "null_permutations": 99,
+    "null_use_full_grid": true,
+    "show_plots": true
+  },
+  "model_grid": [
+    {
+      "n_estimators": 150,
+      "learning_rate": 0.03,
+      "max_depth": 1,
+      "min_samples_leaf": 5,
+      "subsample": 0.8
+    },
+    {
+      "n_estimators": 100,
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "min_samples_leaf": 10,
+      "subsample": 0.8
+    }
+  ],
+  "candidate_grid_provenance_caveat": "Window sizes, xi_indices, crop_values, and band_fracs in this config were narrowed down using earlier non-nested exploratory runs (run_fixed_pipeline.py, run_unk_crop.py, run_unk_cv195.py). The nested search below is unbiased conditional on this candidate grid, but the grid itself was informed by hindsight. See the intro cell."
+}

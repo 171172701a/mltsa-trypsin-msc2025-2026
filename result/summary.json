@@ -1,0 +1,849 @@
+{
+  "fixed_window_oof_balanced_accuracy": 0.7368959868959869,
+  "fixed_window_95ci": [
+    0.6677019953221278,
+    0.7999270140428677
+  ],
+  "fixed_window_selected_key_counts": {
+    "w_2090_2289": 1,
+    "w_2263_2272": 1,
+    "w_2490_2499": 1,
+    "w_2450_2499": 1,
+    "w_2037_2046": 1
+  },
+  "fixed_window_top_features": [
+    {
+      "rank": 1,
+      "index": 195,
+      "name": "CV_195",
+      "importance": 0.01976089188589187,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 2,
+      "index": 230,
+      "name": "CV_230",
+      "importance": 0.009392857142857139,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 3,
+      "index": 198,
+      "name": "CV_198",
+      "importance": 0.008142857142857132,
+      "max_abs_corr_with_higher_ranked": 0.8687482766846756,
+      "likely_redundant_with": "CV_195"
+    },
+    {
+      "rank": 4,
+      "index": 67,
+      "name": "CV_67",
+      "importance": 0.006769841269841273,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 5,
+      "index": 120,
+      "name": "CV_120",
+      "importance": 0.005625,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 6,
+      "index": 186,
+      "name": "CV_186",
+      "importance": 0.005392857142857137,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 7,
+      "index": 218,
+      "name": "CV_218",
+      "importance": 0.005,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 8,
+      "index": 139,
+      "name": "CV_139",
+      "importance": 0.0049999999999999975,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 9,
+      "index": 197,
+      "name": "CV_197",
+      "importance": 0.0049999999999999975,
+      "max_abs_corr_with_higher_ranked": 0.9328141903446096,
+      "likely_redundant_with": "CV_198"
+    },
+    {
+      "rank": 10,
+      "index": 201,
+      "name": "CV_201",
+      "importance": 0.004285714285714283,
+      "max_abs_corr_with_higher_ranked": 0.8851592829711363,
+      "likely_redundant_with": "CV_197"
+    },
+    {
+      "rank": 11,
+      "index": 142,
+      "name": "CV_142",
+      "importance": 0.004285714285714283,
+      "max_abs_corr_with_higher_ranked": 0.8418912737206616,
+      "likely_redundant_with": "CV_139"
+    },
+    {
+      "rank": 12,
+      "index": 196,
+      "name": "CV_196",
+      "importance": 0.004285714285714283,
+      "max_abs_corr_with_higher_ranked": 0.8732672542350365,
+      "likely_redundant_with": "CV_197"
+    },
+    {
+      "rank": 13,
+      "index": 124,
+      "name": "CV_124",
+      "importance": 0.004285714285714283,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 14,
+      "index": 168,
+      "name": "CV_168",
+      "importance": 0.003928571428571429,
+      "max_abs_corr_with_higher_ranked": 0.957049807984595,
+      "likely_redundant_with": "CV_197"
+    },
+    {
+      "rank": 15,
+      "index": 192,
+      "name": "CV_192",
+      "importance": 0.0037692307692307357,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 16,
+      "index": 156,
+      "name": "CV_156",
+      "importance": 0.00357142857142857,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 17,
+      "index": 253,
+      "name": "CV_253",
+      "importance": 0.00357142857142857,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 18,
+      "index": 89,
+      "name": "CV_89",
+      "importance": 0.0032857142857142785,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 19,
+      "index": 151,
+      "name": "CV_151",
+      "importance": 0.003125,
+      "max_abs_corr_with_higher_ranked": 0.9102211709880456,
+      "likely_redundant_with": "CV_201"
+    },
+    {
+      "rank": 20,
+      "index": 17,
+      "name": "CV_17",
+      "importance": 0.003076923076923066,
+      "max_abs_corr_with_higher_ranked": 0.8630044636645463,
+      "likely_redundant_with": "CV_89"
+    }
+  ],
+  "retrospective_unk_oof_balanced_accuracy": 0.7174831081081081,
+  "retrospective_unk_95ci": [
+    0.6455702852893984,
+    0.786481469461469
+  ],
+  "retrospective_unk_selected_key_counts": {
+    "unk_xi41_crop0_bf0p3": 1,
+    "unk_xi195_crop50_bf0p3": 2,
+    "unk_xi41_crop0_bf0p2": 1,
+    "unk_xi195_crop50_bf0p2": 1
+  },
+  "retrospective_unk_top_features": [
+    {
+      "rank": 1,
+      "index": 41,
+      "name": "CV_41",
+      "importance": 0.019907407407407412,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 2,
+      "index": 252,
+      "name": "CV_252",
+      "importance": 0.014624999999999994,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 3,
+      "index": 102,
+      "name": "CV_102",
+      "importance": 0.011488888888888854,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 4,
+      "index": 3,
+      "name": "CV_3",
+      "importance": 0.009976608187134469,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 5,
+      "index": 126,
+      "name": "CV_126",
+      "importance": 0.00843418964076857,
+      "max_abs_corr_with_higher_ranked": 0.8282329355753649,
+      "likely_redundant_with": "CV_41"
+    },
+    {
+      "rank": 6,
+      "index": 38,
+      "name": "CV_38",
+      "importance": 0.007711111111111106,
+      "max_abs_corr_with_higher_ranked": 0.9306053642249235,
+      "likely_redundant_with": "CV_41"
+    },
+    {
+      "rank": 7,
+      "index": 23,
+      "name": "CV_23",
+      "importance": 0.007361111111111087,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 8,
+      "index": 117,
+      "name": "CV_117",
+      "importance": 0.006666666666666643,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 9,
+      "index": 139,
+      "name": "CV_139",
+      "importance": 0.006666666666666643,
+      "max_abs_corr_with_higher_ranked": 0.8680863110190693,
+      "likely_redundant_with": "CV_117"
+    },
+    {
+      "rank": 10,
+      "index": 98,
+      "name": "CV_98",
+      "importance": 0.005999999999999979,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 11,
+      "index": 230,
+      "name": "CV_230",
+      "importance": 0.00527794486215538,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 12,
+      "index": 136,
+      "name": "CV_136",
+      "importance": 0.004999999999999982,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 13,
+      "index": 13,
+      "name": "CV_13",
+      "importance": 0.004999999999999982,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 14,
+      "index": 77,
+      "name": "CV_77",
+      "importance": 0.004947368421052622,
+      "max_abs_corr_with_higher_ranked": 0.9040794807435558,
+      "likely_redundant_with": "CV_41"
+    },
+    {
+      "rank": 15,
+      "index": 71,
+      "name": "CV_71",
+      "importance": 0.004666666666666651,
+      "max_abs_corr_with_higher_ranked": 0.9875996400380117,
+      "likely_redundant_with": "CV_38"
+    },
+    {
+      "rank": 16,
+      "index": 76,
+      "name": "CV_76",
+      "importance": 0.004444444444444447,
+      "max_abs_corr_with_higher_ranked": 0.9622955188385127,
+      "likely_redundant_with": "CV_77"
+    },
+    {
+      "rank": 17,
+      "index": 104,
+      "name": "CV_104",
+      "importance": 0.004444444444444447,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 18,
+      "index": 78,
+      "name": "CV_78",
+      "importance": 0.003999999999999985,
+      "max_abs_corr_with_higher_ranked": 0.9370675501386021,
+      "likely_redundant_with": "CV_77"
+    },
+    {
+      "rank": 19,
+      "index": 154,
+      "name": "CV_154",
+      "importance": 0.003999999999999985,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 20,
+      "index": 0,
+      "name": "CV_0",
+      "importance": 0.003888888888888875,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    }
+  ],
+  "committed_out_oof_balanced_accuracy": 0.7608341479309222,
+  "committed_out_95ci": [
+    0.6922982442010309,
+    0.8270997421266963
+  ],
+  "committed_out_threshold": 5.0,
+  "committed_out_n_dropped": 12,
+  "fixed_window_null_baseline": {
+    "mean": 0.49719967901786083,
+    "std": 0.04018779703203366,
+    "p_value": 0.01
+  },
+  "retrospective_unk_null_baseline": {
+    "mean": 0.5079013672763673,
+    "std": 0.04256636161902766,
+    "p_value": 0.01
+  },
+  "committed_out_borderline_out_of_sample": {
+    "window_key": "w_2300_2499",
+    "n_borderline": 12,
+    "n_predicted_OUT": 9,
+    "n_predicted_IN": 3,
+    "fraction_predicted_OUT": 0.75,
+    "trajectory_index": [
+      22,
+      28,
+      76,
+      87,
+      88,
+      103,
+      124,
+      132,
+      134,
+      156,
+      157,
+      168
+    ],
+    "predicted_probability_OUT": [
+      0.7100572219124045,
+      0.7545978623815184,
+      0.8903736541073249,
+      0.8415882510015726,
+      0.2728417455282296,
+      0.4772761275904139,
+      0.2651343159241932,
+      0.8418981895165707,
+      0.7956944191788085,
+      0.7553509727439697,
+      0.8961437290769908,
+      0.616738653695346
+    ],
+    "predicted_label": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "label_scores": [
+      4.188896656,
+      4.217165947,
+      4.5515213013,
+      4.9842500687,
+      4.0523228645,
+      4.9237012863,
+      4.3925614357,
+      4.0772943497,
+      4.1559062004,
+      4.0963125229,
+      4.046728611,
+      4.3308105469
+    ]
+  },
+  "label_score_regression_oof_r2": 0.25567208486047177,
+  "label_score_regression_r2_95ci": [
+    0.15096151906223468,
+    0.35122486871956504
+  ],
+  "label_score_regression_spearman": 0.5268876517514869,
+  "label_score_regression_oof_mae_log_score": 0.32639327998488904,
+  "label_score_regression_top_features": [
+    {
+      "rank": 1,
+      "index": 195,
+      "name": "CV_195",
+      "importance": 0.02399547373574886,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 2,
+      "index": 126,
+      "name": "CV_126",
+      "importance": 0.023578148589143567,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 3,
+      "index": 155,
+      "name": "CV_155",
+      "importance": 0.020766927186146825,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 4,
+      "index": 152,
+      "name": "CV_152",
+      "importance": 0.01415561285284075,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 5,
+      "index": 124,
+      "name": "CV_124",
+      "importance": 0.011112750119557605,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 6,
+      "index": 247,
+      "name": "CV_247",
+      "importance": 0.010227636698088155,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 7,
+      "index": 78,
+      "name": "CV_78",
+      "importance": 0.009386239111474192,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 8,
+      "index": 43,
+      "name": "CV_43",
+      "importance": 0.008697299091575914,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 9,
+      "index": 42,
+      "name": "CV_42",
+      "importance": 0.00864605720012561,
+      "max_abs_corr_with_higher_ranked": 0.8699120296419391,
+      "likely_redundant_with": "CV_43"
+    },
+    {
+      "rank": 10,
+      "index": 142,
+      "name": "CV_142",
+      "importance": 0.007953814221182222,
+      "max_abs_corr_with_higher_ranked": 0.8486018194782433,
+      "likely_redundant_with": "CV_155"
+    },
+    {
+      "rank": 11,
+      "index": 249,
+      "name": "CV_249",
+      "importance": 0.007483354783155089,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 12,
+      "index": 76,
+      "name": "CV_76",
+      "importance": 0.005962565059276089,
+      "max_abs_corr_with_higher_ranked": 0.8578937483328704,
+      "likely_redundant_with": "CV_78"
+    },
+    {
+      "rank": 13,
+      "index": 144,
+      "name": "CV_144",
+      "importance": 0.00568258015364024,
+      "max_abs_corr_with_higher_ranked": 0.9116915862378223,
+      "likely_redundant_with": "CV_142"
+    },
+    {
+      "rank": 14,
+      "index": 188,
+      "name": "CV_188",
+      "importance": 0.005609920735840173,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 15,
+      "index": 125,
+      "name": "CV_125",
+      "importance": 0.0055757662132885025,
+      "max_abs_corr_with_higher_ranked": 0.9180743197611042,
+      "likely_redundant_with": "CV_124"
+    },
+    {
+      "rank": 16,
+      "index": 187,
+      "name": "CV_187",
+      "importance": 0.005194180023717623,
+      "max_abs_corr_with_higher_ranked": 0.959691487107154,
+      "likely_redundant_with": "CV_188"
+    },
+    {
+      "rank": 17,
+      "index": 180,
+      "name": "CV_180",
+      "importance": 0.004931306553106731,
+      "max_abs_corr_with_higher_ranked": 0.9446949947837926,
+      "likely_redundant_with": "CV_187"
+    },
+    {
+      "rank": 18,
+      "index": 123,
+      "name": "CV_123",
+      "importance": 0.004179777556599618,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    },
+    {
+      "rank": 19,
+      "index": 204,
+      "name": "CV_204",
+      "importance": 0.0040031509797358545,
+      "max_abs_corr_with_higher_ranked": 0.942808340955124,
+      "likely_redundant_with": "CV_144"
+    },
+    {
+      "rank": 20,
+      "index": 228,
+      "name": "CV_228",
+      "importance": 0.003947977706810002,
+      "max_abs_corr_with_higher_ranked": null,
+      "likely_redundant_with": null
+    }
+  ],
+  "fisher_decorrelation_enabled": true,
+  "fixed_window_fisher_decorrelated_top_features": [
+    {
+      "rank": 1,
+      "index": 43,
+      "name": "CV_43",
+      "fisher_score": 1.1736824244260788
+    },
+    {
+      "rank": 2,
+      "index": 166,
+      "name": "CV_166",
+      "fisher_score": 0.9900077000260353
+    },
+    {
+      "rank": 3,
+      "index": 76,
+      "name": "CV_76",
+      "fisher_score": 0.8992630302906036
+    },
+    {
+      "rank": 4,
+      "index": 195,
+      "name": "CV_195",
+      "fisher_score": 0.8921712458133697
+    },
+    {
+      "rank": 5,
+      "index": 126,
+      "name": "CV_126",
+      "fisher_score": 0.724367082118988
+    },
+    {
+      "rank": 6,
+      "index": 110,
+      "name": "CV_110",
+      "fisher_score": 0.6128471873700618
+    },
+    {
+      "rank": 7,
+      "index": 21,
+      "name": "CV_21",
+      "fisher_score": 0.5651281625032425
+    },
+    {
+      "rank": 8,
+      "index": 191,
+      "name": "CV_191",
+      "fisher_score": 0.5603081760928035
+    },
+    {
+      "rank": 9,
+      "index": 2,
+      "name": "CV_2",
+      "fisher_score": 0.5334068283438682
+    },
+    {
+      "rank": 10,
+      "index": 155,
+      "name": "CV_155",
+      "fisher_score": 0.525868934392929
+    },
+    {
+      "rank": 11,
+      "index": 37,
+      "name": "CV_37",
+      "fisher_score": 0.5173170973081141
+    },
+    {
+      "rank": 12,
+      "index": 45,
+      "name": "CV_45",
+      "fisher_score": 0.4872981071472168
+    },
+    {
+      "rank": 13,
+      "index": 137,
+      "name": "CV_137",
+      "fisher_score": 0.4647544890642166
+    },
+    {
+      "rank": 14,
+      "index": 3,
+      "name": "CV_3",
+      "fisher_score": 0.4442321573384106
+    },
+    {
+      "rank": 15,
+      "index": 173,
+      "name": "CV_173",
+      "fisher_score": 0.4357351645827293
+    },
+    {
+      "rank": 16,
+      "index": 124,
+      "name": "CV_124",
+      "fisher_score": 0.4011532664299011
+    },
+    {
+      "rank": 17,
+      "index": 23,
+      "name": "CV_23",
+      "fisher_score": 0.3759651958942413
+    },
+    {
+      "rank": 18,
+      "index": 103,
+      "name": "CV_103",
+      "fisher_score": 0.3510567590594292
+    },
+    {
+      "rank": 19,
+      "index": 158,
+      "name": "CV_158",
+      "fisher_score": 0.3488598960451782
+    },
+    {
+      "rank": 20,
+      "index": 4,
+      "name": "CV_4",
+      "fisher_score": 0.34578431993722913
+    }
+  ],
+  "retrospective_unk_fisher_decorrelated_top_features": [
+    {
+      "rank": 1,
+      "index": 75,
+      "name": "CV_75",
+      "fisher_score": 1.381664514541626
+    },
+    {
+      "rank": 2,
+      "index": 126,
+      "name": "CV_126",
+      "fisher_score": 1.0537167847156526
+    },
+    {
+      "rank": 3,
+      "index": 40,
+      "name": "CV_40",
+      "fisher_score": 1.0207183063030243
+    },
+    {
+      "rank": 4,
+      "index": 42,
+      "name": "CV_42",
+      "fisher_score": 0.8001074314117431
+    },
+    {
+      "rank": 5,
+      "index": 152,
+      "name": "CV_152",
+      "fisher_score": 0.7246928304433823
+    },
+    {
+      "rank": 6,
+      "index": 21,
+      "name": "CV_21",
+      "fisher_score": 0.655005818605423
+    },
+    {
+      "rank": 7,
+      "index": 129,
+      "name": "CV_129",
+      "fisher_score": 0.6042449225235031
+    },
+    {
+      "rank": 8,
+      "index": 173,
+      "name": "CV_173",
+      "fisher_score": 0.596674257516861
+    },
+    {
+      "rank": 9,
+      "index": 221,
+      "name": "CV_221",
+      "fisher_score": 0.5626227423548699
+    },
+    {
+      "rank": 10,
+      "index": 200,
+      "name": "CV_200",
+      "fisher_score": 0.5514932990074157
+    },
+    {
+      "rank": 11,
+      "index": 214,
+      "name": "CV_214",
+      "fisher_score": 0.528147779405117
+    },
+    {
+      "rank": 12,
+      "index": 4,
+      "name": "CV_4",
+      "fisher_score": 0.4991281718015671
+    },
+    {
+      "rank": 13,
+      "index": 23,
+      "name": "CV_23",
+      "fisher_score": 0.4915238544344902
+    },
+    {
+      "rank": 14,
+      "index": 194,
+      "name": "CV_194",
+      "fisher_score": 0.4849310576915741
+    },
+    {
+      "rank": 15,
+      "index": 33,
+      "name": "CV_33",
+      "fisher_score": 0.47831885814666747
+    },
+    {
+      "rank": 16,
+      "index": 153,
+      "name": "CV_153",
+      "fisher_score": 0.4572741359472275
+    },
+    {
+      "rank": 17,
+      "index": 138,
+      "name": "CV_138",
+      "fisher_score": 0.3593804493546486
+    },
+    {
+      "rank": 18,
+      "index": 192,
+      "name": "CV_192",
+      "fisher_score": 0.34726681248284874
+    },
+    {
+      "rank": 19,
+      "index": 219,
+      "name": "CV_219",
+      "fisher_score": 0.3121163194300607
+    },
+    {
+      "rank": 20,
+      "index": 256,
+      "name": "CV_256",
+      "fisher_score": 0.2776919986557914
+    }
+  ],
+  "null_baseline_candidate_grid": "full",
+  "fisher_correlation_reference": "Outer-fold held-out, fold-selected window/config feature matrices; absolute correlations averaged only where both CVs were present.",
+  "regression_split_strategy": "StratifiedGroupKFold on rank-quantile bins of group-level log(label_scores), with shuffled grouped fallback for undersized datasets.",
+  "candidate_grid_provenance_caveat": "Window sizes, xi_indices, crop_values, and band_fracs in this config were narrowed down using earlier non-nested exploratory runs (run_fixed_pipeline.py, run_unk_crop.py, run_unk_cv195.py). The nested search below is unbiased conditional on this candidate grid, but the grid itself was informed by hindsight. See the intro cell.",
+  "elapsed_seconds": 43898.6,
+  "reporting_rule": "Use nested out-of-fold metrics for performance; use the full-data model only for deployment/refit. Compare the Section A result against Section C (class-definition sensitivity), Section C2 (regression reframing), and Section D (chance baseline) before treating it as a finding."
+}

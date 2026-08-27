@@ -1,0 +1,40 @@
+{
+  "block_distance": 0.3,
+  "separate_waters": true,
+  "n_blocks": 73,
+  "block_repeats": 10,
+  "floors": {
+    "feat|TS": {
+      "rho": 0.11642197218839556,
+      "jaccard": 0.2
+    },
+    "blk|TS": {
+      "rho": 0.30456312476860425,
+      "jaccard": 0.30434782608695654
+    },
+    "feat|late": {
+      "rho": 0.12780449014782863,
+      "jaccard": 0.034482758620689655
+    },
+    "blk|late": {
+      "rho": 0.2746534686155634,
+      "jaccard": 0.2
+    }
+  },
+  "cross_window_blockperm": {
+    "rho": 0.17188078489448355,
+    "jaccard": 0.25
+  },
+  "oof": {
+    "TS": 0.6635749385749385,
+    "late": 0.7605105105105106
+  },
+  "water_enrichment_blocklevel": {
+    "top_n": 14,
+    "TS": 11,
+    "late": 8,
+    "odds_ratio": 2.75,
+    "fisher_p": 0.4197101449275363
+  },
+  "verdict": "部分改善:最弱窗口地板从 0.034 升到 0.200,但仍不够稳。可以调大 BLOCK_DISTANCE 让块更粗再试一次。"
+}

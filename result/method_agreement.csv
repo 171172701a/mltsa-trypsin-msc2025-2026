@@ -1,0 +1,9 @@
+window,method_a,method_b,spearman_rho,top15_jaccard
+TS,gini,gini,1.0000,1.0000
+TS,gini,perm,0.1077,0.1538
+TS,perm,gini,0.1077,0.1538
+TS,perm,perm,1.0000,1.0000
+late,gini,gini,1.0000,1.0000
+late,gini,perm,-0.2300,0.0714
+late,perm,gini,-0.2300,0.0714
+late,perm,perm,1.0000,1.0000
